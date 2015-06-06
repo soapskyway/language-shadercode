@@ -1,6 +1,6 @@
 {
   "name": "language-shadercode",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Syntax highlighting for shader languages like hlsl, glsl and usf",
   "repository": "https://github.com/soapskyway/language-shadercode",
   "license": "MIT",
