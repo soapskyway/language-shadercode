@@ -76,6 +76,16 @@
     'end': '\\n'
   }
   {
+    'name': 'quoted.double.glsl'
+    'begin': '^(r|R)"\\($'
+    'end': '^\\)"$'
+    'patterns': [
+      {
+        'include': "$self"
+      }
+    ]
+  }
+  {
     'include': 'source.c'
   }
 ]
